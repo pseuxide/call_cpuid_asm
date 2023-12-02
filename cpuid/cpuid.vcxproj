@@ -137,7 +137,7 @@
     <MASM Include="detect_vmx_support.asm">
       <FileType>Document</FileType>
     </MASM>
-    <MASM Include="get_cpu_id.asm" />
+    <MASM Include="get_cpu_type.asm" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />

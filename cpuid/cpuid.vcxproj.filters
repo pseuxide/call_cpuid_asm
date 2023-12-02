@@ -28,7 +28,7 @@
     <MASM Include="detect_vmx_support.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="get_cpu_id.asm">
+    <MASM Include="get_cpu_type.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

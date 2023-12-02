@@ -1,7 +1,7 @@
 # call_cpuid_asm
 check virtualization support of cpu using cpuid
 
-![result](https://github.com/pseuxide/call_cpuid_asm/assets/33578715/691a82e4-6f15-4800-8457-848575167303)
+![result](https://github.com/pseuxide/call_cpuid_asm/assets/33578715/29216124-43aa-48f1-bc5e-b03c6fcf8438)
 
 # how you can compile assembly
 
