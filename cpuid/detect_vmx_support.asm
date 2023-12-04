@@ -1,5 +1,6 @@
-.code
-detect_vmx_support proc
+public detect_vmx_support
+.code _text
+detect_vmx_support proc public
     xor    rax, rax       ; set rax to 0
     inc    rax            ; set rax to 1
     cpuid                 ; call cpuid

@@ -1,5 +1,6 @@
-.code
-get_cpu_type proc
+public get_cpu_type
+.code _text
+get_cpu_type proc public
     mov     rax, 0                  ; cpuid behaves differently based on the value in rax
     mov     rdi, rcx                ; assign param to rdi which is the sys_type buffer.
     cpuid                           ; call cpuid
