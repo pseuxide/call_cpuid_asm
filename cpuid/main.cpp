@@ -14,8 +14,8 @@ std::string get_cpu_type_string()
 
 int main()
 {
-  std::string cpu_id = get_cpu_type_string();
-  std::cout << "CPU TYPE: " << cpu_id << std::endl;
+  std::string cpu_type = get_cpu_type_string();
+  std::cout << "CPU TYPE: " << cpu_type << std::endl;
 
   bool is_vmx_supported = detect_vmx_support();
   if (is_vmx_supported)
